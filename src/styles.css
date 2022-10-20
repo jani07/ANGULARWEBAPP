@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body {
+margin: 0.2em 0.2em;
+padding: 0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #666;
+background-color: #dedede;
+}
+
+.top-menu {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.vertical-menu {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.vap-icon
+{
+  padding: 0 10px;
+}
+
+.mat-elevation-z5{
+  position: relative;
+  z-index: 2;
+}
+
+.mat-sidenav a:hover
+{
+  color: #B210FF;
+}
+
+
+/* Form Field */
+form.normal-form{
+  margin: 10px;
+}
+
+.controles-container{
+  width: 100%;
+  padding: 5%;
+}
+
+.controles-container>* {
+  width: 100%;
+}
+
+.add-padding-bottom {
+  padding-bottom: 10px;
+}
+
+
+.mat-radio-button{
+  margin-left: 5px;
+}
+
+.button-row button{
+  margin: 5px;
+}
